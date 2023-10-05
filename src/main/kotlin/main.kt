@@ -9,7 +9,7 @@ fun main() {
     if (totalCommission < commissionMin) {
         totalCommission = commissionMin
     }
-    println("$totalCommission ðóáëåé")
+    println("$totalCommission рублей")
 
 
     //Задача №2.Люди/Человеки
@@ -19,9 +19,9 @@ fun main() {
     val remainsToo = likes % 100
 
     if (remains != 1 || remainsToo == 11) {
-        println("Ïîíðàâèëîñü $likes ëþäÿì")
+        println("Понравилось $likes людям")
     } else {
-        println("Ïîíðàâèëîñü $likes ÷åëîâåêó")
+        println("Понравилось $likes человеку")
     }
 
 
@@ -41,7 +41,7 @@ fun main() {
         result = purchaseAmount - discount else if (purchaseAmount > borderMax) result =
         intermediateResult else if (regularCustomer)
         result = (intermediateResult / 100) * 1
-    println("$result ðóáëåé")
+    println("$result рублей")
 
 
 }
