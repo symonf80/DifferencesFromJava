@@ -1,5 +1,5 @@
 fun main() {
-    //Задача №1.Денежные переводы
+     //Р—Р°РґР°С‡Р° в„–1.Р”РµРЅРµР¶РЅС‹Рµ РїРµСЂРµРІРѕРґС‹
 
     val amount = 1000;
     val commissionPercent = 0.75
@@ -9,23 +9,23 @@ fun main() {
     if (totalCommission < commissionMin) {
         totalCommission = commissionMin
     }
-    println("$totalCommission рублей")
+    println("$totalCommission Г°ГіГЎГ«ГҐГ©")
 
 
-    //Задача №2.Люди/Человеки
+    //Р—Р°РґР°С‡Р° в„–2.Р›СЋРґРё/Р§РµР»РѕРІРµРєРё
 
     val likes = 12
     val remains = likes % 10
     val remainsToo = likes % 100
 
     if (remains != 1 || remainsToo == 11) {
-        println("Понравилось $likes людям")
+        println("ГЏГ®Г­Г°Г ГўГЁГ«Г®Г±Гј $likes Г«ГѕГ¤ГїГ¬")
     } else {
-        println("Понравилось $likes человеку")
+        println("ГЏГ®Г­Г°Г ГўГЁГ«Г®Г±Гј $likes Г·ГҐГ«Г®ГўГҐГЄГі")
     }
 
 
-    //Задача №3.Меломан
+   //Р—Р°РґР°С‡Р° в„–3.РњРµР»РѕРјР°РЅ
 
     val purchaseAmount = 200_000
     val discount = 100
@@ -41,7 +41,7 @@ fun main() {
         result = purchaseAmount - discount else if (purchaseAmount > borderMax) result =
         intermediateResult else if (regularCustomer)
         result = (intermediateResult / 100) * 1
-    println("$result рублей")
+    println("$result Г°ГіГЎГ«ГҐГ©")
 
 
 }
