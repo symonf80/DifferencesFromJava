@@ -18,7 +18,7 @@ fun main() {
     val remains = likes % 10
     val remainsToo = likes % 100
 
-    if (remains != 1 || remainsToo == 11) {
+    if (remains != 1 || remainsToo === 11) {
         println("Понравилось $likes людям")
     } else {
         println("Понравилось $likes человеку")
